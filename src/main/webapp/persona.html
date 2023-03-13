@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+        <title>PAW</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="muestraPersona.jsp">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value=""/>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <label for="hombre">Hombre</label> 
+                    <input type="radio" name="sexo" value="h" id="hombre" /> 
+                    <label for="mujer">Mujer</label> 
+                    <input type="radio" name="sexo" value="M" id="mujer" />
+                </fieldset>
+                <fieldset>
+                    <legend>Deportes favoritos</legend>
+                    <label for="futbol”>Futbol</label> 
+                           <input type="checkbox" name="deportes" value="futbol" id="futbol" />
+                    <label for="baloncesto">Baloncesto</label> 
+                    <input type="checkbox" name="deportes" value="baloncesto" id="baloncesto" />
+                    <label for="natacion">Natación</label> 
+                    <input type="checkbox" name="deportes" value="natacion" id="natacion" />
+                </fieldset>
+                <input type="submit" value="Enviar" />
+            </form>
+
+        </div>
+    </body>
+</html>
