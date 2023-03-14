@@ -8,7 +8,9 @@
     <body>
         <%@include file='_header.jsp' %>
         
-        <%@include file='menu/items.jsp' %>
+        <jsp:include page="_jsp_menu.jsp">
+            <jsp:param name="sessionId" value="${pageContext.session.id}"/>
+        </jsp:include>
 
         <article>
             <p>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>es.unirioja</groupId>
-    <artifactId>Spike03a</artifactId>
+    <artifactId>spike03a</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

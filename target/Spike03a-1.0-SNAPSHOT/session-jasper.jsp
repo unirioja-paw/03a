@@ -6,17 +6,17 @@
         <title>PAW</title>
     </head>
     <body>
-        <%@include file='_header.jsp' %>
-        
-        <%@include file='menu/items.jsp' %>
-
+        <h1>Session en Servlet generado</h1>
         <article>
+
+            <%
+                session.getAttribute("aaaa");
+            %>
+
             <p>
-                Este es el contenido principal de la página
+                Mira el código generado ("View Servlet")
             </p>
         </article>
-
-        <%@include file='_footer.jsp' %>
 
     </body>
 </html>
